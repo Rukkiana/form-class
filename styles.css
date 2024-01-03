@@ -42,22 +42,30 @@ input {
   border-width: thin;
 }
 .reg {
-  border-color: transparent;
+  padding: 0.5rem;
   background-color: #3f70f3;
   color: white;
   border-radius: 5px;
+  border: 1px solid#3f70f3;
+  font-size: large;
+  margin-left: 1rem;
+  margin-right: 2rem;
 }
-.a {
+
+.login {
+  border: 0;
   background-color: white;
-  border: none;
-  color: #3f70f3;
-}
-.b {
   text-align: center;
+  color: blue;
+}
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .c {
+  font-size: 45px;
   color: white;
-  margin: 8rem;
-  font: 2rem sans-serif;
-  font-weight: bolder;
+  font-weight: thin;
+  margin: 3rem;
 }
